@@ -264,6 +264,8 @@ label .close_btn {
 
 .section_container .services_items img {
     width: 100%;
+    border-radius: 50%;
+    box-shadow: 1px 1px var(--secondary-color);
 }
 
 .section_container .services_items {
