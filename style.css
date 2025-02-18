@@ -153,6 +153,7 @@ label .close_btn {
 .hero_container .text_section h2 {
     font-size: 40px;
     color: var(--secondary-color);
+    text-shadow: 1px 1px black;
 }
 
 .hero_container .text_section h3 {
@@ -168,6 +169,7 @@ label .close_btn {
     color: var(--white-color);
     margin: 24px 0 40px;
     max-width: 70%;
+    text-shadow: 1px 1px black;
 }
 
 .hero_container .hero_section_button {
@@ -181,8 +183,8 @@ label .close_btn {
     outline: none;
     cursor: pointer;
     border-radius: 50px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
+    background: #8e44ad;
+    color: var(--white-color);
     font-size: 18px;
     font-weight: 600;
     transition: all 0.4s ease;
@@ -201,9 +203,9 @@ label .close_btn {
 }
 
 .hero_container .hero_section_button .button:last-child:hover {
-    color: var(--primary-color);
-    background: var(--secondary-color);
-    border-color: var(--secondary-color);
+    color: var(--white-color);
+    background: #8e44ad;
+    border-color: #8e44ad;
 }
 
 .hero_container .image_section {
@@ -245,6 +247,7 @@ label .close_btn {
 
 .about_container .image_section img {
     width: 100%;
+    border-radius: 20%;
 }
 
 /* Services Section */
@@ -301,10 +304,14 @@ label .close_btn {
 }
 
 .why_container .why_items img {
-    width: 30%;
+    width: 80%;
+    border-radius: 20%;
     margin-bottom: 10px;
 }
-
+.why_container .why_items img:hover{
+    transform: scale(1.1);
+   
+}
 .why_container .why_items {
     width: calc(100% / 3 - 80px);
     padding: 12px;
@@ -351,6 +358,7 @@ label .close_btn {
     width: 100%;
     border-radius: 8px;
     transition: transform 0.4s ease;
+    box-shadow: 1px 1px var(--dark-color);
 }
 
 .gallery_container .gallery_items:hover img {
@@ -411,7 +419,7 @@ label .close_btn {
     outline: none;
     cursor: pointer;
     border-radius: 50px;
-    background: var(--primary-color);
+    background:#8e44ad;
     color: var(--white-color);
     font-size: 17px;
     font-weight: 600;
